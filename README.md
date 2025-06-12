@@ -2,6 +2,9 @@
 
 Multi-step Norwegian driving license application form built with React + Tailwind CSS.
 
+##
+[Live Site](https://forerkort.netlify.app/)
+
 ## Setup
 
 ```bash
