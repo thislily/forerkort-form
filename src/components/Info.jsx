@@ -5,9 +5,9 @@ export default function Info() {
   return (
     <div>
       {nonsense.map((item) => (
-        <div className="bg-white sm:rounded-lg shadow-lg border-delft-blue
-                      mx-auto my-10 border-4 w-full
-                      sm:w-2xl p-12 flex flex-col items-center gap-6">
+        <div className="bg-white rounded-lg shadow-lg border-delft-blue
+                      mx-auto my-10  border-4 w-[95%]
+                      sm:w-2xl p-10 flex flex-col items-center gap-6">
           <div>
             <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
             <p className="text-gray-700">{item.paragraph}</p>

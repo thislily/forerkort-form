@@ -2,6 +2,7 @@ import React from 'react';
 import DynamicForm from './components/DynamicForm';
 import Header from './components/Header';
 import Info from './components/Info';
+import Footer from './components/Footer';
 import './style.css';
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
   <Header />
   <DynamicForm />
   <Info />
+  <Footer />
+
 </div>
   );
 }

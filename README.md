@@ -1,12 +1,33 @@
-# React + Vite
+# Førerkort Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Multi-step Norwegian driving license application form built with React + Tailwind CSS.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Add car icon to `public/assets/car.png`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What it does
+
+- 4-step form with progress tracking
+- JSON-driven configuration  
+- Conditional field logic
+- Responsive design (card on desktop, full-width on mobile)
+- Form validation
+- Additional text and buttons further down, just links back to the form
+
+
+## Built with
+
+- React 18
+- Vite
+- Tailwind CSS v4
+
+## Author
+
+**Lily Watson**  
+GitHub: [thislily](https://github.com/thislily)
