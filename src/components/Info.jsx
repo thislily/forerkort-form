@@ -1,6 +1,13 @@
 import React from "react";
 import nonsense from "../config/nonsense.json";
 
+
+/**
+ * Info component displays a list of informational cards
+ * each with a title, paragraph, and call-to-action button.
+ * The button scrolls the page to the form section when clicked.
+ */
+
 export default function Info() {
   return (
     <div>
