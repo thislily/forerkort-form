@@ -1,0 +1,47 @@
+/* Import Google Fonts - Lexend */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Import Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* SIMPLE TAILWIND V4 CONFIGURATION */
+@theme {
+  /* Simple Custom Colors */
+  --color-eggshell: #f4f1deff;
+  --color-burnt-sienna: #e07a5fff;
+  --color-delft-blue: #3d405bff;
+  --color-cambridge-blue: #81b29aff;
+  --color-sunset: #f2cc8fff;
+
+  /* Font Family */
+  --font-family-sans: "Lexend", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* SIMPLE GLOBAL STYLES */
+
+body {
+  font-family: "Lexend", sans-serif;
+  color: var(--color-delft-blue);
+}
+
+.App {
+  font-family: "Lexend", sans-serif;
+  background-color: var(--color-eggshell);
+  color: var(--color-delft-blue);
+  min-height: 100vh;
+}
+
+/* Simple focus styles */
+input:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(129, 178, 154, 0.2);
+}
+
+/* Simple transitions */
+button,
+input,
+select {
+  transition: all 0.2s ease-in-out;
+  font-family: "Lexend", sans-serif;
+}
