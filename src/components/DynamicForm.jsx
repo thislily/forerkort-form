@@ -13,12 +13,12 @@ import { getStepFields, validateCurrentStep } from "../utils/formUtils";
 import formConfig from "../config/formConfig.json";
 
 const DynamicForm = () => {
-  // existing form state
+  // Existing form state
   const [currentStep, setCurrentStep] = useState(0);
   const [formData, setFormData]     = useState({});
   const [errors, setErrors]         = useState({});
 
-  // **new** modal-open state
+  // Modal-open state
   const [modalOpen, setModalOpen]   = useState(false);
 
   // Handle field value changes…
@@ -47,7 +47,8 @@ const DynamicForm = () => {
   const handleSubmit = () => {
     const stepErrors = validateCurrentStep(currentStep, formConfig, formData);
     if (Object.keys(stepErrors).length === 0) {
-      // instead of alert, open modal
+      console.log("Submitting form data:", formData);
+      
       setModalOpen(true);
     } else {
       setErrors(stepErrors);

@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function Modal({ onClose }) {
 return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
         <div className="bg-white p-16 rounded-lg shadow-lg text-center border-4 border-cambridge-blue">
             <h2 className="text-2xl font-bold mb-4">Takk!</h2>
             <p className="text-lg">
